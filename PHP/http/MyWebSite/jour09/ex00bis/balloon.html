@@ -1,0 +1,55 @@
+<html>
+  <head>
+	<title>Javascript</title>
+  <script   src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+  </head>
+  <body>
+	<div id="balloon" style="height: 200px; width: 200px; background-color: red; border-radius: 10000px;"></div>
+  	<script>
+  	var RGB = ["red", "green", "blue"];
+  	var taille = 200;
+  	var tmp = 0;
+    var plus = 0;
+    var object = $("#balloon");
+  	function setColor()
+  	{
+  		if (tmp < 0)
+  			tmp = 2;
+  		else if (tmp > 2)
+  			tmp  = 0;
+  		object.css("backgroundColor",RGB[tmp]);
+  	}
+  	function my_function(plus)
+  	{
+  		if (taille < 200 || taille > 420)
+  			taille = 200;
+      if ( plus === 1)
+      {
+  		object.css("width",taille);
+  		object.css("height",taille);
+    }
+    else if (plus === 0)
+    {
+      object.css("width",taille);
+      object.css("height",taille);
+    }
+  	}
+  	object.on("click",function()
+  	{
+      plus = 1;
+  		taille += 10;
+  		tmp++;
+  		my_function(plus);
+  		setColor();
+  	});
+  	object.on("mouseleave",function()
+  	{
+      taille -= 5;
+      plus = 0;
+      tmp--;
+  		my_function(plus);
+  		setColor();
+  	});
+  	</script>
+  </body>
+</html>

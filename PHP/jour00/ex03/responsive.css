@@ -1,0 +1,15 @@
+.emp{height: 5%}
+.titres{width: 10%}
+.my {width: 70%; height: 70%}
+.titre {text-align: center; color: red; font-size:1vw;}
+.numero {text-align: left; color:black; font-size: 0.5vw}
+.atomique{text-align: right; color:black; font-size: 0.5vw}
+.bordure{display:inline-block; width: 5,5%; height: 5.5%;
+background: #fefcea; 
+background: -moz-linear-gradient(top,  #fefcea 0%, #f1da36 100%); 
+background: -webkit-linear-gradient(top,  #fefcea 0%,#f1da36 100%); 
+background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 );
+}
+h1 {color:red;}

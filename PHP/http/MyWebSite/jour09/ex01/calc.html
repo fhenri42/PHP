@@ -1,0 +1,63 @@
+<html>
+  <head>
+	<title>Javascript</title>
+  <script>
+  window.onload = function()
+  {
+  var Ope = document.getElementById("operator");
+  var Lnumber = document.getElementById("left_number");
+  var Rnumber = document.getElementById("right_number");
+  var tryMe = document.getElementById("try_me");
+  var tmp =0;
+  window.setInterval(function()
+  {
+      alert("Please, use me...");
+  }, 30000);
+
+function display(tmp)
+{
+  console.log(tmp);
+  alert(tmp);
+}
+  tryMe.addEventListener("click",function()
+  {
+    _left_number = parseInt(Lnumber.value);
+    _right_number = parseInt(Rnumber.value);
+    _ope = Ope.value;
+  
+  if (_ope ===  "+")
+    tmp = _left_number + _right_number;
+  if (_ope === "-")
+    tmp = _left_number - _right_number;
+  if (_ope === "*")
+    tmp =_left_number * _right_number;
+  if(_ope === "/")
+    tmp =_left_number / _right_number;
+  if(_ope === "%")
+    tmp =_left_number % _right_number;
+ if (( _ope === "%" || _ope === "/") &&(_right_number === 0))
+        display("It's over 9000!");
+ else if ((isNaN(_left_number) || isNaN(_right_number) || isNaN(tmp))
+        || (_left_number < 0 || _right_number < 0))
+        display("Error :(");
+      
+      else 
+        display(tmp);
+  });
+};
+
+  </script>
+  </head>
+  <body>
+   <input id="left_number" />
+    <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+  </select>
+  <input id="right_number" />
+  <input id="try_me" type="submit" value="Try me!"/>
+  </body>
+</html>

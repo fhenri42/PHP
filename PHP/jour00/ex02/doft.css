@@ -1,0 +1,39 @@
+.test{text-align: center; width: 50%; height: 50%; }
+.title{background:#909090; width: 1200px; left: 90px; box-shadow: 6px 6px 0px black; border-radius: 10px;}
+.menu{border-radius: 10px; width: 50%; right: 20%}
+.re{ width: 2%; right:1%; position: absolute}
+.leav{width: 2%; right:1%; top:85%; position: absolute}
+.loupe{width: 15%; right:2%; top:37%; position: absolute}
+.coter_gauche{width: 150px; height: 500px; left: 120px; background:#909090; box-shadow: 6px 6px 0px black; border-radius: 10px; margin-top: 1%}
+.coter_droi{width: 150px; height: 500px; left: 180px; background:#909090; box-shadow: 6px 6px 0px black; border-radius: 10px; margin-left: 525%; top: -120%;}
+.milieux{width: 800px; height: 120%; left: 26%; background:#909090; box-shadow: 6px 6px 0px black; border-radius: 10px; margin-left: 80%; }
+.green_arrow{width: 30%; top: 5%; right: 30%; position: absolute;}
+.main{width: 30%; top: 20%; right: 30%; position: absolute;}
+.oeil{width: 30%; top: 40%; right: 30%; position: absolute; border: 5px solid red;}
+.outil{width: 30%; top: 60%; right: 30%; position: absolute;}
+.chat{width: 30%; top: 80%; right: 30%; position: absolute;}
+.clusteur{width: 790; height:570; margin-top: 10px}
+.livre{width: 35%; top: 5%; right: 30%; position: absolute;}
+.towel{width: 60%; top: 35%; right: 25%; position: absolute;}
+.brick{width: 60%; top:60%; right: 25%; position: absolute;}
+.recherche{width: 500px; height: 200px; right: 100px; background:lightgreen; box-shadow: 6px 6px 0px black; border-radius: 10px; margin-top: 60; margin-right: 10}
+.input-text { width: 35em;}
+.txt-shadow { text-shadow: -.25em .25em .25em red;}
+.rep{ width: 100px; height: 100px; background-image: url(/nfs/2015/f/fhenri/PHP/jour00/ex02/resources/brick.jpg); margin-top: 300}
+body
+{
+	text-align: center;
+}
+div
+{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+}
+nav
+{
+	position: relative;
+	text-align: center;
+	display: left;
+
+}

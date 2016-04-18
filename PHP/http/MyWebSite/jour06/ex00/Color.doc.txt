@@ -1,0 +1,2 @@
+Cette classe va nous permettre de représenter des couleurs et de faire quelques operations simples sur leurs
+composantes.

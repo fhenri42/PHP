@@ -1,0 +1,44 @@
+<html>
+  <head>
+	<title>Javascript</title>
+  </head>
+  <body>
+	<div id="balloon" style="height: 200px; width: 200px; background-color: red; border-radius: 10000px;"></div>
+  	<script>
+  	var RGB = ["red", "green", "blue"];
+  	var taille = 200;
+  	var tmp = 0;
+  	var object = document.getElementById("balloon");
+  	function setColor()
+  	{
+  		if (tmp < 0)
+  			tmp = 2;
+  		else if (tmp > 2)
+  			tmp  = 0;
+  		object.style.backgroundColor = RGB[tmp];
+  	}
+  	function my_function()
+  	{
+  		if (taille < 200 || taille > 420)
+  			taille = 200;
+
+  		object.style.width =  taille + 10;
+  		object.style.height = taille + 10;
+  	}
+  	object.addEventListener("click",function()
+  	{
+  		taille += 10;
+  		tmp++;
+  		my_function();
+  		setColor();
+  	});
+  	object.addEventListener("mouseleave",function()
+  	{
+  		taille -= 5;
+  		tmp--;
+  		my_function();
+  		setColor();
+  	});
+  	</script>
+  </body>
+</html>

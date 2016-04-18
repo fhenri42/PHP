@@ -1,0 +1,267 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background:url(http://e-commerce.pvc.maricopa.edu/cis133/ngianfrancisco/images/grey.png) no-repeat center fixed;
+	background-size: cover;
+}
+ a
+ {
+ 	text-decoration: none;
+ }
+
+ h1 {
+
+ 	text-align: center;
+ 	font-size: 7vw;
+ 	font-family: fantasy;
+ 	color : #f39c12;
+ 	text-shadow:
+        1px -1px 0 #767676,
+        -1px 2px 1px #767474,
+        -2px 4px 1px #7b7a7a,
+        -3px 6px 1px #828181,
+        -4px 8px 1px #8b8a89,
+        -5px 10px 1px #949392,
+        -6px 12px 1px #9e9c9c,
+        -7px 14px 1px #a8a6a6,
+        -8px 16px 1px #b2b1b0,
+        -9px 18px 1px #bcbbba,
+        -10px 20px 1px #c6c4c4,
+        -11px 22px 1px #cfcdcd,
+        -12px 24px 1px #d8d6d5,
+        -13px 26px 1px #dfdddc,
+        -14px 28px 1px #e4e3e2;
+
+ }
+
+ h2 {
+
+ 	text-align: center;
+ 	font-size: 3vw;
+ 	font-family: fantasy;
+ 	color : #f39c12;
+ 	text-shadow:
+        1px -1px 0 #767676,
+        -1px 2px 1px #767474,
+        -2px 4px 1px #7b7a7a,
+        -3px 6px 1px #828181,
+        -4px 8px 1px #8b8a89,
+        -5px 10px 1px #949392,
+        -6px 12px 1px #9e9c9c,
+        -7px 14px 1px #a8a6a6,
+        -8px 16px 1px #b2b1b0,
+        -9px 18px 1px #bcbbba,
+        -10px 20px 1px #c6c4c4,
+        -11px 22px 1px #cfcdcd,
+        -12px 24px 1px #d8d6d5,
+        -13px 26px 1px #dfdddc,
+        -14px 28px 1px #e4e3e2;
+
+ }
+
+ h3 {
+
+ 	text-align: center;
+ 	font-size: 2vw;
+ 	font-family: fantasy;
+ 	color : #f39c12;
+ }
+
+ form {
+
+ 	text-align: center;
+ }
+.account {
+
+	float: right;
+	margin-right: 2vw;
+	display :inline;
+	font-family: fantasy;
+	color : #f39c12;
+	padding: 2vw 4vw;
+	background-color : #696560;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #F2BC79;
+
+}
+
+.accountcreation {
+
+	display :block;
+	font-size: 3vw;
+	font-family: fantasy;
+	color : #f39c12;
+	text-align: center;
+	padding: vw 40vw;
+	background-color : #696560;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #F2BC79;
+}
+ 
+.OK {
+
+	border-color: silver;
+	margin: 0px auto;
+	font-size: 3vw;
+	font-family: cursive;
+	color : #2ecc71;
+	text-align: center;
+	padding:;
+	background-color : #696560;
+	border-radius: 15px;
+	box-shadow: 2px 2px 20px #00FF00;
+
+}
+
+.box {
+
+	display: block;
+	border-color: silver;
+	font-size: 3vw;
+	font-family: cursive;
+	color : #2ecc71;
+	text-align: center;
+	background-color : #696560;
+	border-radius: 15px;
+	box-shadow: 2px 2px 20px #00FF00;
+
+}
+
+.logg {
+
+	display :block;
+	margin: 0px auto;
+	font-size: 3vw;
+	font-family: fantasy;
+	color : #f39c12;
+	text-align: center;
+	padding: vw 40vw;
+	background-color : #696560;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #F2BC79;
+
+}
+
+
+.margin {
+
+	position: relative;
+	margin: 10vw;
+}
+
+.hometext {
+
+	font-size: 5vw;
+	font-family: cursive;
+	text-align: center;
+	color : #f39c12;
+
+
+}
+.header{
+
+	height: 10vw;
+	width: 100%;
+	margin: 0px;
+	margin-top: 50px;	
+}
+
+.basket {
+
+	position: absolute;
+	margin-left: 1vw;
+	color : white;
+	font-size: 2vw;
+	padding: 1vw 1vw;
+	background-color: #696560;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #F2BC79;
+
+}
+
+.menu {
+
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+
+.Desc {
+
+	text-align: left;
+	margin-left: 1vw;
+	color :#F6A45C;
+	font-family: cursive;
+	font-size: 2vw;
+}
+
+.price {
+
+	text-align: right;
+	font-family: fantasy;
+	font-size: 2vw;
+	color: white;
+	margin-left: 3vw;
+
+}
+
+.animated {
+
+	transition: all 0.7s ease-out;
+}
+
+.zoom a:hover,
+.zoom a:focus {
+	transform: scale(5);
+	box-shadow: 5px 5px 60px #CC6633 inset, 0px 0px 60px #9E9F9C inset, 0px 0px 60px #F28920;
+}
+
+#board {
+	display: block;
+	position: relative;
+	background-color : #696560;
+	opacity: 0.8;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #F2BC79;
+	width: 90%;
+	margin: 0 auto;
+}
+
+td {
+    text-align:left;
+}
+
+table {
+
+	background-color: #525050 ;
+	border-color: #FF8000;
+	border-style: solid;
+	border-radius: 8px;
+	box-shadow: 2px 2px 20px #F2BC79;
+}
+
+.menutop li {
+	display: inline;
+	margin-top : 20px;
+
+}
+.menu li a {
+
+	font-family: fantasy;
+	margin: auto;
+	width: 40%;
+	border-radius: 10px;
+	opacity: 0.8;
+	box-shadow: 5px 5px 10px #F2BC79;
+	color : #f39c12;
+	padding: 2vw 3vw;
+	font-size: 3vw;
+	background-color: #696560;
+	vertical-align: middle;
+}
+
+.menu li a:hover
+{
+	background-color: #E08F28;
+}

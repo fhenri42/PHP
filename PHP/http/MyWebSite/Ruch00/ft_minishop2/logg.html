@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="responsive-bootstrap.css">
+	</head>
+	<body id="body">
+	<h1>NEEDASHIRT</h1>
+		<div class="header">
+			<nav class="menutop">
+				<div> <a href ="compte.html" class = "account">Register</a></div>
+				<div class = "zoom">
+					<ul class = "menu">
+						<li class="zoom" style="margin-left: auto"><a href="index.php">Home</a></li>
+						<li class="zoom"><a href="men.html">Men</a></li>
+						<li class="zoom"><a href="women.html">Women</a></li>
+						<li class="zoom" style="margin-right: auto"><a href="basket.php">Basket</a></li>
+					</ul>
+				</div>	
+			</nav>
+		</div>
+			<form action="all-php/logg.php" method="POST">
+				<h2>Connection</h2>
+					<h3>Username</h3>
+					<input class = "logg" name="login" value=""/>
+					<h3>Password</h3> <input class = "logg" name="pass1" value= ""/><br />
+					<input class = "OK" type="submit" name="submit" value="OK"/>
+			</form>
+			<form action="all-php/modif.php" method="POST">
+				<h2>Modify your password</h2>
+					<h3>Username</h3><input class = "logg" name="login" value=""/>
+	 				<h3>Current password</h3><input class = "logg" name="oldpw" value= ""/>
+	 				<h3>New password</h3><input class = "logg" name ="newpw" value=""/><br />
+					<input class = "OK"type="submit" name="submit" value="OK"/>
+			</form>
+			<form action="all-php/supp_account.php" method="POST">
+				<h2>Delete your account</h2>
+					<h3>Username</h3><input class = "logg" name="login" value=""/>
+					<h3>Password</h3><input class = "logg" name="pass1" value= ""/><br />
+					<input class = "OK" type="submit" name="submit" value="OK"/>
+	</body>
+</html>
+
+
